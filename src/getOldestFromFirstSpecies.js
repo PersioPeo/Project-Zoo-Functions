@@ -1,5 +1,4 @@
 const data = require('../data/zoo_data');
-
 const animal = data.species;
 const funcionario = data.employees;
 
@@ -22,5 +21,4 @@ function getOldestFromFirstSpecies(id) {
   };
   return verificaAnimal(idDoAnimal);
 }
-// console.log(getOldestFromFirstSpecies(id));
 module.exports = getOldestFromFirstSpecies;
